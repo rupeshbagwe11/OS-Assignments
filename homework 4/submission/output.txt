@@ -1,0 +1,214 @@
+-------------------------parallel_hashtable---------------------------------
+user@cs3224:~/Assignment4$ ./parallel_hashtable 64
+[main] Inserted 100000 keys in 0.052719 seconds
+[thread 63] 0 keys lost!
+[thread 62] 0 keys lost!
+[thread 60] 0 keys lost!
+[thread 61] 0 keys lost!
+[thread 59] 0 keys lost!
+[thread 58] 0 keys lost!
+[thread 57] 13 keys lost!
+[thread 56] 6 keys lost!
+[thread 55] 5 keys lost!
+[thread 54] 1 keys lost!
+[thread 52] 0 keys lost!
+[thread 53] 0 keys lost!
+[thread 51] 3 keys lost!
+[thread 50] 0 keys lost!
+[thread 49] 0 keys lost!
+[thread 48] 4 keys lost!
+[thread 47] 0 keys lost!
+[thread 46] 0 keys lost!
+[thread 45] 15 keys lost!
+[thread 43] 0 keys lost!
+[thread 44] 11 keys lost!
+[thread 41] 7 keys lost!
+[thread 42] 28 keys lost!
+[thread 33] 0 keys lost!
+[thread 39] 4 keys lost!
+[thread 40] 12 keys lost!
+[thread 31] 2 keys lost!
+[thread 37] 39 keys lost!
+[thread 32] 14 keys lost!
+[thread 38] 19 keys lost!
+[thread 35] 10 keys lost!
+[thread 36] 0 keys lost!
+[thread 29] 11 keys lost!
+[thread 28] 12 keys lost!
+[thread 30] 5 keys lost!
+[thread 25] 17 keys lost!
+[thread 34] 2 keys lost!
+[thread 26] 14 keys lost!
+[thread 27] 2 keys lost!
+[thread 23] 5 keys lost!
+[thread 24] 52 keys lost!
+[thread 19] 8 keys lost!
+[thread 18] 29 keys lost!
+[thread 17] 36 keys lost!
+[thread 22] 28 keys lost!
+[thread 21] 24 keys lost!
+[thread 20] 30 keys lost!
+[thread 15] 0 keys lost!
+[thread 16] 15 keys lost!
+[thread 14] 0 keys lost!
+[thread 1] 67 keys lost!
+[thread 11] 1 keys lost!
+[thread 10] 17 keys lost!
+[thread 9] 9 keys lost!
+[thread 8] 83 keys lost!
+[thread 13] 0 keys lost!
+[thread 12] 4 keys lost!
+[thread 2] 2 keys lost!
+[thread 4] 27 keys lost!
+[thread 7] 26 keys lost!
+[thread 6] 18 keys lost!
+[thread 0] 66 keys lost!
+[thread 3] 7 keys lost!
+[thread 5] 112 keys lost!
+[main] Retrieved 99078/100000 keys in 1.676505 seconds
+-------------------------parallel_mutex---------------------------------
+user@cs3224:~/Assignment4$ ./parallel_mutex 64
+[main] Inserted 100000 keys in 0.035402 seconds
+[thread 42] 0 keys lost!
+[thread 58] 0 keys lost!
+[thread 57] 0 keys lost!
+[thread 59] 0 keys lost!
+[thread 61] 0 keys lost!
+[thread 56] 0 keys lost!
+[thread 63] 0 keys lost!
+[thread 52] 0 keys lost!
+[thread 4] 0 keys lost!
+[thread 51] 0 keys lost!
+[thread 62] 0 keys lost!
+[thread 49] 0 keys lost!
+[thread 60] 0 keys lost!
+[thread 3] 0 keys lost!
+[thread 40] 0 keys lost!
+[thread 8] 0 keys lost!
+[thread 10] 0 keys lost!
+[thread 45] 0 keys lost!
+[thread 5] 0 keys lost!
+[thread 9] 0 keys lost!
+[thread 19] 0 keys lost!
+[thread 23] 0 keys lost!
+[thread 47] 0 keys lost!
+[thread 25] 0 keys lost!
+[thread 36] 0 keys lost!
+[thread 15] 0 keys lost!
+[thread 53] 0 keys lost!
+[thread 11] 0 keys lost!
+[thread 28] 0 keys lost!
+[thread 54] 0 keys lost!
+[thread 41] 0 keys lost!
+[thread 6] 0 keys lost!
+[thread 35] 0 keys lost!
+[thread 14] 0 keys lost!
+[thread 22] 0 keys lost!
+[thread 26] 0 keys lost!
+[thread 24] 0 keys lost!
+[thread 2] 0 keys lost!
+[thread 12] 0 keys lost!
+[thread 1] 0 keys lost!
+[thread 18] 0 keys lost!
+[thread 39] 0 keys lost!
+[thread 33] 0 keys lost!
+[thread 43] 0 keys lost!
+[thread 38] 0 keys lost!
+[thread 37] 0 keys lost!
+[thread 16] 0 keys lost!
+[thread 44] 0 keys lost!
+[thread 7] 0 keys lost!
+[thread 34] 0 keys lost!
+[thread 0] 0 keys lost!
+[thread 31] 0 keys lost!
+[thread 30] 0 keys lost!
+[thread 48] 0 keys lost!
+[thread 32] 0 keys lost!
+[thread 50] 0 keys lost!
+[thread 46] 0 keys lost!
+[thread 55] 0 keys lost!
+[thread 29] 0 keys lost!
+[thread 21] 0 keys lost!
+[thread 20] 0 keys lost!
+[thread 17] 0 keys lost!
+[thread 27] 0 keys lost!
+[thread 13] 0 keys lost!
+[main] Retrieved 100000/100000 keys in 1.816778 seconds
+-------------------------parallel_spin---------------------------------
+user@cs3224:~/Assignment4$ ./parallel_spin 64
+[main] Inserted 100000 keys in 0.246210 seconds
+[thread 14] 0 keys lost!
+[thread 55] 0 keys lost!
+[thread 36] 0 keys lost!
+[thread 57] 0 keys lost!
+[thread 35] 0 keys lost!
+[thread 38] 0 keys lost!
+[thread 40] 0 keys lost!
+[thread 34] 0 keys lost!
+[thread 20] 0 keys lost!
+[thread 59] 0 keys lost!
+[thread 37] 0 keys lost!
+[thread 44] 0 keys lost!
+[thread 43] 0 keys lost!
+[thread 54] 0 keys lost!
+[thread 56] 0 keys lost!
+[thread 21] 0 keys lost!
+[thread 39] 0 keys lost!
+[thread 42] 0 keys lost!
+[thread 26] 0 keys lost!
+[thread 22] 0 keys lost!
+[thread 45] 0 keys lost!
+[thread 60] 0 keys lost!
+[thread 50] 0 keys lost!
+[thread 29] 0 keys lost!
+[thread 48] 0 keys lost!
+[thread 53] 0 keys lost!
+[thread 10] 0 keys lost!
+[thread 58] 0 keys lost!
+[thread 41] 0 keys lost!
+[thread 25] 0 keys lost!
+[thread 33] 0 keys lost!
+[thread 47] 0 keys lost!
+[thread 46] 0 keys lost!
+[thread 49] 0 keys lost!
+[thread 52] 0 keys lost!
+[thread 51] 0 keys lost!
+[thread 32] 0 keys lost!
+[thread 63] 0 keys lost!
+[thread 27] 0 keys lost!
+[thread 5] 0 keys lost!
+[thread 31] 0 keys lost!
+[thread 30] 0 keys lost!
+[thread 24] 0 keys lost!
+[thread 23] 0 keys lost!
+[thread 62] 0 keys lost!
+[thread 28] 0 keys lost!
+[thread 61] 0 keys lost!
+[thread 16] 0 keys lost!
+[thread 8] 0 keys lost!
+[thread 15] 0 keys lost!
+[thread 19] 0 keys lost!
+[thread 11] 0 keys lost!
+[thread 2] 0 keys lost!
+[thread 9] 0 keys lost!
+[thread 12] 0 keys lost!
+[thread 6] 0 keys lost!
+[thread 7] 0 keys lost!
+[thread 0] 0 keys lost!
+[thread 17] 0 keys lost!
+[thread 13] 0 keys lost!
+[thread 18] 0 keys lost!
+[thread 4] 0 keys lost!
+[thread 3] 0 keys lost!
+[thread 1] 0 keys lost!
+[main] Retrieved 100000/100000 keys in 1.668986 seconds
+user@cs3224:~/Assignment4$ 
+
+1)Yes, there is overhead for using mutex
+
+2)Spinlock is faster than mutex.The fundamental difference between spinlock and mutex is that spinlock keeps checking the lock (busy waiting), while mutex puts threads waiting for the lock into sleep (blocked). A busy-waiting thread wastes CPU cycles, while a blocked thread does not. However Spinlock is slightly faster than mutex for the same reason.
+
+3)Retrieving can work in parallel.Retrieving an item from the hash table does not require a lock. 
+
+4)If two inserts are being done on different buckets in parallel,then no keys will be lost. For this we can set locks on all those buckets where the updates are being done, so no two threads will go to write and rewrite in the same bucket and hence no keys would be lost. 
+
